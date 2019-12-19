@@ -23,4 +23,4 @@ RUN apt-get update && apt-get install -y wget --no-install-recommends \
     && apt-get purge --auto-remove -y curl \
     && rm -rf /src/*.deb
 
-RUN npm install -g @angular/cli
+RUN yarn install -g @angular/cli
