@@ -1,7 +1,7 @@
 # Node frontend (ver: https://github.com/tiangolo/node-frontend/)
 FROM node:12
 
-LABEL version="1.1"
+LABEL version="1.2"
 LABEL description="Base image to develop with angular using CI/CD."
 LABEL mantainer="tonybolanyo@gmail.com"
 
@@ -23,4 +23,4 @@ RUN apt-get update && apt-get install -y wget --no-install-recommends \
     && apt-get purge --auto-remove -y curl \
     && rm -rf /src/*.deb
 
-RUN yarn install -g @angular/cli
+RUN yarn global add @angular/cli
