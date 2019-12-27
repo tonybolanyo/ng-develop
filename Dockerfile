@@ -1,7 +1,7 @@
 # Node frontend (ver: https://github.com/tiangolo/node-frontend/)
 FROM node:12
 
-LABEL version="1.2"
+LABEL version="1.2.1"
 LABEL description="Base image to develop with angular using CI/CD."
 LABEL mantainer="tonybolanyo@gmail.com"
 
