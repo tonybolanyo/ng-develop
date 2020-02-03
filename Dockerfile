@@ -31,4 +31,4 @@ RUN apt-get update && apt-get install -y \
     && apt-get purge --auto-remove -y curl \
     && rm -rf /src/*.deb
 
-RUN npm install -g @angular/cli
+RUN npm install -g @angular/cli npm-cli-login
